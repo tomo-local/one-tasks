@@ -4,7 +4,8 @@
     "preinstall": "npx only-allow pnpm",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "update-types": "npx supabase gen types typescript --linked  > ./src/types/schema.ts"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
