@@ -23,7 +23,7 @@ export default async function ProtectedPage() {
           This is a protected page that you can only see as an authenticated
           user
         </div>
-        <nav className="flex justify-center w-full h-16 border-b border-b-foreground/10">
+        <nav className="flex justify-center w-full h-16 border-b border-b-main/10">
           <div className="flex items-center justify-between w-full max-w-4xl p-3 text-sm">
             <DeployButton />
             <AuthButton />
@@ -39,7 +39,7 @@ export default async function ProtectedPage() {
         </main>
       </div>
 
-      <footer className="flex justify-center w-full p-8 text-xs text-center border-t border-t-foreground/10">
+      <footer className="flex justify-center w-full p-8 text-xs text-center border-t border-t-main/10">
         <p>
           Powered by{" "}
           <a
