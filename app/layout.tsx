@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import { GeistSans } from "geist/font/sans";
 import "@styles/globals.css";
 
@@ -14,7 +15,7 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <html lang="ja" className={GeistSans.className}>
